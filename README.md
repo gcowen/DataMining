@@ -1,6 +1,11 @@
 # DataMining    
 For the .ipynb files, please open in Google colab and run all the cells to see the results.     
-Best Model: SVM , to generate SVM_prediction.csv, please run generate.py
+Best Model: SVM      
+
+## Instructions for the Support Vector Machine and K-Nearest Neighbours models      
+The KNN_and_SVM.ipynb includes all the codes and results of these two models.     
+To generate SVM_prediction.csv, please run generate_SVM_pred.py and change the path of testing data accordingly.    
+To generate KNN_prediction.csv, please run generate_KNN_pred.py and change the path of testing data accordingly.    
 
 ## Instructions for the Decision Tree and Multinomial Naive Bayes models
 The code for the Decision Tree is provided in the Python file name "Decision_Tree.ipynb".
@@ -15,7 +20,7 @@ The code for each model can be run on the training set directly, after which an 
 
 `print(value)`
 
-Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run. The predictions for each model are in the following files, Decision_Tree_Predictions.csv and Multinomial_Naive_Bayes.csv.
+Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run.
 
 ## Instructions for the Neural Network and Random Forest models
  Please run `TESTFORNeuralNetworkandRandomforesr.py` to see the testing result,  still need to copy the true label in the same path and change a revise of the code. (see the instruction inside the file)<br>
