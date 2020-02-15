@@ -1,10 +1,6 @@
 # DataMining    
 For the .ipynb files, please open in Google colab and run all the cells to see the results.     
-Best Model: SVM , to generate SVM_prediction.csv, please run generate.py    
-
-## Instructions for the Decision Tree and Multinomial Naive Bayes models
-To generate SVM_prediction.csv, please run generate_SVM_pred.py and change the path of testing data accordingly.   
-To generate KNN_prediction.csv, please run generate_KNN_pred.py and change the path of testing data accordingly.     
+Best Model: SVM , to generate SVM_prediction.csv, please run generate.py
 
 ## Instructions for the Decision Tree and Multinomial Naive Bayes models
 The code for the Decision Tree is provided in the Python file name "Decision_Tree.ipynb".
@@ -25,7 +21,7 @@ Once these commands are uncommented, the models will begin predicting values for
  Please run `TESTFORNeuralNetworkandRandomforesr.py` to see the testing result,  still need to copy the true label in the same path and change a revise of the code. (see the instruction inside the file)
  The code for  Neural Network and Random Forest models is provided in the Python file name `"NeuralNetworkandRandomForest.ipynp"`.
  The trained model are name as `MLP.pkl` and `RFC.pkl` which are already used in `TESTFORNeuralNetworkandRandomforesr.py`.
- The generated prediction result are named as `Y_predictMLP.csv` and `Y_predictRFC.csv`.
+ As the prediction results are not fully printed, please check the generated prediction result  named as `Y_predictMLP.csv` and `Y_predictRFC.csv`.
  <br>
  
  Please check `"NeuralNetworkandRandomForest.ipynp"`first then using the true label and run `TESTFORNeuralNetworkandRandomforesr.py`to see final accuracy.
