@@ -15,4 +15,4 @@ The code for each model can be run on the training set directly, after which an 
 
 `print(value)`
 
-Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run.
+Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run. The code may have to be run locally to obtain the full print out of predictions as Google Colab may limit the number of lines printed out.
