@@ -15,7 +15,7 @@ The code for each model can be run on the training set directly, after which an 
 
 `print(value)`
 
-Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run.
+Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run. The predictions for each model are in the following files, Decision_Tree_Predictions.csv and Multinomial_Naive_Bayes.csv.
 
 ## Instructions for the Neural Network and Random Forest models
  Please run `TESTFORNeuralNetworkandRandomforesr.py` to see the testing result,  still need to copy the true label in the same path and change a revise of the code. (see the instruction inside the file)<br>
