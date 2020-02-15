@@ -1,6 +1,6 @@
 # DataMining    
 For the .ipynb files, please open in Google colab and run all the cells to see the results.
-Best Model: SVM
+Best Model: SVM , to generate SVM_prediction.csv, please run generate.py
 
 ## Instructions for the Decision Tree and Multinomial Naive Bayes models
 The code for the Decision Tree is provided in the Python file name "Decision_Tree.ipynb".
