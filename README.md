@@ -1,7 +1,6 @@
 # DataMining    
 For the .ipynb files, please open in Google colab and run all the cells to see the results.     
-Best Model: SVM , to generate SVM_prediction.csv, please run generate_SVM_pred.py, change the path of testing data if necessary.    
-Similarly, to generate KNN_prediction.csv, please run generate_KNN_pred.py, change the path of testing data if necessary.
+Best Model: SVM , to generate SVM_prediction.csv, please run generate.py
 
 ## Instructions for the Decision Tree and Multinomial Naive Bayes models
 The code for the Decision Tree is provided in the Python file name "Decision_Tree.ipynb".
@@ -12,6 +11,19 @@ The code for each model can be run on the training set directly, after which an 
 
 `predictionY2 = clf.predict(testingX2)`
 
-`print(*predictionY2)`
+`for value in predictionY2:`
 
-Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run. The code may have to be run locally to obtain the full print out of predictions as Google Colab may limit the number of lines printed out.
+`print(value)`
+
+Once these commands are uncommented, the models will begin predicting values for the testing set. If the code doesn't run because of an incorrect path, then copy paste the testing.csv file path onto ./DataMining/testing.csv. An output of each prediction will be displayed once the code is correctly run.
+
+## Instructions for the Neural Network and Random Forest models
+ Please run `TESTFORNeuralNetworkandRandomforesr.py` to see the testing result,  still need to copy the true label in the same path and change a revise of the code. (see the instruction inside the file)
+ The code for  Neural Network and Random Forest models is provided in the Python file name `"NeuralNetworkandRandomForest.ipynp"`.
+ The trained model are name as `MLP.pkl` and `RFC.pkl` which are already used in `TESTFORNeuralNetworkandRandomforesr.py`.
+ The generated prediction result are named as `Y_predictMLP.csv` and `Y_predictRFC.csv`.
+ <br>
+ 
+ Please check `"NeuralNetworkandRandomForest.ipynp"`first then using the true label and run `TESTFORNeuralNetworkandRandomforesr.py`to see final accuracy.
+ <br><br>
+ `Y_predictMLP.csv` and `Y_predictRFC.csv` are also provided for validation usage. 
